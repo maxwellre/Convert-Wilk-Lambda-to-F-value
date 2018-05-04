@@ -1,4 +1,4 @@
-%% Convert Wilks' Lambda to F-distribution
+%% Convert Wilks' Lambda to F-value
 %--------------------------------------------------------------------------
 % function F = wilkLambda2F(lamb, groupNum, depVarNum, totalObsN, dispInfo)
 % 
@@ -7,7 +7,7 @@
 %                   
 % 2. 'groupNum' - number of groups (classes) (k)
 % 
-% 3. 'depVarNum' - number of dependent variables (feature number) (p)              
+% 3. 'depVarNum' - number of dependent variables (features) (p)              
 %
 % 4. 'totalObsN' - total number of obseravations (of all classes) (k*n)
 %
@@ -16,7 +16,7 @@
 %                (DF_num) and denominator (DF_denom)
 %
 % Outputs:
-% 1. 'F' - F-distribution
+% 1. 'F' - F-value
 %
 % Reference: Rencher, Alvin C. Methods of multivariate analysis. Vol. 492. 
 %            John Wiley & Sons, 2003., p156-163.
